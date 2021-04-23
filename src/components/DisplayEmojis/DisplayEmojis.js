@@ -18,6 +18,7 @@ const DisplayEmojis = () => {
       <SearchBox onChange={handleChange} />
       {emojiState
         .filter((emoji) => {
+          // console.log("emoji_START", emoji);
           if (search === "") return emoji;
           if (emoji.description.toLowerCase().includes(search.toLowerCase()))
             return emoji;
