@@ -4,7 +4,7 @@ const Heading = () => {
   return (
     <div className={styles.headerContainer}>
       <a
-        href="https://github.com/ahfarmer/emoji-search"
+        href="https://github.com/LusineGhalechyan/emoji_search"
         target="_blank"
         rel="noreferrer"
       >
