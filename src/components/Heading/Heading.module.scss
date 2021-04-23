@@ -1,0 +1,20 @@
+$headerEmojiWidth: 4%;
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .stripForkMeOnGithub {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 20%;
+  }
+  .headerEmoji {
+    width: $headerEmojiWidth;
+    margin: 0px 10px;
+  }
+  .headerParagraph {
+    font-size: 30px;
+  }
+}

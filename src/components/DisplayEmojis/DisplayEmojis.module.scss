@@ -1,0 +1,32 @@
+.displayEmojisContainer {
+  font-size: 18px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  &:hover {
+    cursor: pointer;
+    background-color: #eee;
+  }
+}
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .displayEmojis {
+    justify-content: flex-start;
+    margin-right: 10px;
+  }
+  .displayEmojisInnerText {
+    opacity: 0;
+    color: #999;
+    margin-left: auto;
+    transition: all 0.5s;
+    padding-right: 10px;
+  }
+}
+.displayEmojisContainer {
+  &:hover {
+    .displayEmojisInnerText {
+      opacity: 1;
+    }
+  }
+}
